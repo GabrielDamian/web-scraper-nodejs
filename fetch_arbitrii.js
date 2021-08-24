@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 //se pre-selecteaza sezonul (19-20, 20-21), inainte de a pasa link-ul
-const url = 'https://www.premierleague.com/referees/index?fbclid=IwAR1jq_omAM7Spq0Zsp-pIxtT1nicigFiZoQ7v1a6RlEu1HploKxcNIHlxi4';
+const url = 'https://www.premierleague.com/referees/index?fbclid=IwAR1jq_omAM7Spq0Zsp-pIxtT1nicigFiZoQ7v1a6RlEu1HploKxcNIHlxi4&se=363';
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
